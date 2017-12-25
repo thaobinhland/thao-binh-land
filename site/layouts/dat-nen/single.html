@@ -1,0 +1,126 @@
+{{ partial "head" . }}
+{{ partial "nav" . }}
+<div class="mw6 center ph1 pv2">
+    <h1 class="f4 lh-title b mb1" style="font-size: 20px; color: rgba(0,0,0,0.7)">{{.Title}}</h1>
+    {{ if isset .Params "description" }}
+    <h1 class="f4 lh-title b mb1" style="font-size: 14px; color: rgba(0,0,0,0.5)">{{.Description}}</h1>
+    {{ end }}
+
+    {{ if isset .Params "address" }}
+    <h1 class="f4 lh-title b mb1" style="font-size: 14px; color: rgba(0,0,0,0.5)">{{.Params.address}}</h1>
+    {{ end }}
+
+    {{ if isset .Params "price" }}
+    <h1 class="f4 lh-title b mb1" style="font-size: 18px; color: rgba(0,0,0,0.7)">{{.Params.price}}</h1>
+    {{ end }}
+    <div class="flex justify-between grey-3">
+    </div>
+    <div class="cms mw6">
+        <div class="main-carousel">
+            {{ range .Params.images }}
+            <img class="carousel-cell w-100" style="pointer-events: none" src="/img/{{ . }}">
+            {{ end }}
+        </div>
+        <br>
+        <div class="pa0">
+            <div class="overflow-auto">
+                {{ if ((isset .Params "mapurl")) | and (not (eq .Params.mapUrl "")) }}
+                <div class="w-100 pa2">
+                    <iframe src="{{ .Params.mapUrl }}" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                {{ end }}
+                <table class="f6 w-100 mw6 center" cellspacing="0" style="font-size: 14px">
+                    <tbody class="lh-copy">
+                    {{ if ((isset .Params "tinhtrangphaply")) | and (not (eq .Params.tinhtrangphaply "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Tình trạng pháp lý</td>
+                        <td class="pa3">{{ .Params.tinhTrangPhapLy }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if ((isset .Params "dientich")) | and (not (eq .Params.dientich "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Diện tích</td>
+                        <td class="pa3">{{ .Params.dienTich }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if ((isset .Params "duongtruocnha")) | and (not (eq .Params.duongTruocNha "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Đường trước nhà</td>
+                        <td class="pa3">{{ .Params.duongTruocNha }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if ((isset .Params "huong")) | and (not (eq .Params.huong "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Hướng</td>
+                        <td class="pa3">{{ .Params.huong }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if ((isset .Params "sotang")) | and (not (eq .Params.soTang "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Số tầng</td>
+                        <td class="pa3">{{ .Params.soTang }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if ((isset .Params "phongngu")) | and (not (eq .Params.phongNgu "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Phòng ngủ</td>
+                        <td class="pa3">{{ .Params.phongNgu }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if ((isset .Params "phongtam")) | and (not (eq .Params.phongTam "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Phòng tắm</td>
+                        <td class="pa3">{{ .Params.phongTam }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if ((isset .Params "thuocduan")) | and (not (eq .Params.thuocDuAn "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Thuộc dự án</td>
+                        <td class="pa3">{{ .Params.thuocDuAn }}</td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if isset .Params "tienich" }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Tiện ích</td>
+                        <td class="pa3">
+                            {{ range .Params.tienIch }}
+                                {{.}}<br>
+                            {{ end }}
+                        </td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if isset .Params "moitruongxungquanh" }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Môi trường xung quanh</td>
+                        <td class="pa3">
+                            {{ range .Params.moiTruongXungQuanh }}
+                            {{.}}<br>
+                            {{ end }}
+                        </td>
+                    </tr>
+                    {{ end }}
+
+                    {{ if ((isset .Params "status")) | and (not (eq .Params.status "")) }}
+                    <tr class="stripe-dark">
+                        <td class="pa3 b">Trạng thái</td>
+                        <td class="pa3">{{ .Params.status }}</td>
+                    </tr>
+                    {{ end }}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br>
+        {{ .Content }}
+    </div>
+</div>
+{{ partial "footer" . }}

@@ -1,0 +1,39 @@
+<div class="mw9 center">
+    <div class="cf pr2-ns">
+        <div class="fl w-100 w-70-ns pa0">
+            <div class="siema" style="max-height: 400px">
+                {{ range .Params.intro.images }}
+                <img class="w-100" style="pointer-events: none" src="/img/{{ . }}">
+                {{ end }}
+            </div>
+            <div class="mw7 center ph3" style="position: absolute; top: 180px; left: 1%">
+                <div class="db mb3">
+                    <div class="mw7 relative bg-fix-primary mb3">
+                        <h1 class="f1 f1-l b di lh-title mb3 white mw6 bg-primary">
+                            {{.Params.intro.title}}
+                        </h1>
+                    </div>
+                    <div class="mw7 relative bg-fix-primary">
+                        {{ if .Params.intro.subtitle }}
+                        <p class="b f4 di lh-title mb3 white mw6 bg-primary">
+                            {{.Params.intro.subtitle}}
+                        </p>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fl w-100 w-30-ns pa2" style="max-height: 400px; overflow-y: hidden;">
+            <h1 class="f5 underline lh-title mt0 mb0">Tin mới nhất</h1>
+            {{ range first 4 (where .Data.Pages "Type" "tin-tuc").ByDate.Reverse }}
+            <div class="ph0-ns flex">
+                {{ .Render "li" }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+
+
+

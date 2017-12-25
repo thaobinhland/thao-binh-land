@@ -1,0 +1,16 @@
+<a href="{{ .Permalink }}" class="fl w-100 raise ba b--grey-2 mb2">
+    {{ if isset .Params "huong" }}
+    <div class="card-ribbon">{{ .Params.price }}</div>
+    {{ end }}
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <img style="background-image:url({{ .Params.image }});" class="db bg-center cover aspect-ratio--object br0" />
+    </div>
+    <div class="ph0 ph0-ns link db">
+        <div class="f6 pa1 white" style="font-size: 16px; background-color: #414142">{{ .Title | truncate 52 }}</div>
+        {{ if isset .Params "address" }}
+        <div class="f6 pa1 mt0" style="font-size: 14px">{{ .Params.address | truncate 36 }}</div>
+        {{ end }}
+    </div>
+</a>
+
+

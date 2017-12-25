@@ -1,0 +1,46 @@
+{{ partial "head" . }}
+{{ partial "nav" . }}
+
+<div class="mw7 center mt1">
+    <h2 class="f4 tc lh-title mb0 pb0">Bất động sản nổi bật</h2>
+    <ul class="flex-ns flex-wrap mhn1-ns pa3">
+        {{ range .Paginator.Pages }}
+        <div class="ph1-ns w-100 w-50-ns w-33-m w-20-l flex">
+            {{ .Render "li"}}
+        </div>
+        {{ end }}
+    </ul>
+</div>
+
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<div class="flex items-center justify-between pa3">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="f5 no-underline black bg-animate hover-bg-black hover-white inline-flex items-center pa2 ba border-box w3 db ml3">
+        <span class="pl1">&nbsp;&nbsp;&nbsp;</span>
+        <svg class="w1" data-icon="chevronLeft" viewBox="0 0 32 32" style="fill:currentcolor">
+            <title>chevronLeft icon</title>
+            <path d="M20 1 L24 5 L14 16 L24 27 L20 31 L6 16 z"></path>
+        </svg>
+    </a>
+    {{ else }}
+    <div></div>
+    {{ end }}
+
+    <span class="page-number">Trang {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }}</span>
+
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="f5 no-underline black bg-animate hover-bg-black hover-white inline-flex items-center pa2 ba border-box w3 db mr3">
+        <span class="pr1">&nbsp;&nbsp;&nbsp;</span>
+        <svg class="w1" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
+            <title>chevronRight icon</title>
+            <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
+        </svg>
+    </a>
+    {{ else }}
+    <div></div>
+    {{ end }}
+</div>
+{{ end }}
+
+{{ partial "footer" . }}
+

@@ -11,22 +11,22 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Thông tin phụ", name: "description", widget: "string"}
+      - {label: "Thông tin phụ", name: "description", widget: "string", default: "", required: false}
       - {label: "Giá", name: "price", widget: "string", required: true}
       - {label: "Ngày đăng", name: "date", widget: "datetime", required: true}
-      - {label: "Link Google Map", name: "mapUrl", widget: "text"}
+      - {label: "Link Google Map", name: "mapUrl", widget: "text", default: "", required: false}
       - {label: "Địa chỉ", name: "address", widget: "text", required: true}
-      - {label: "Trạng thái", name: "status", widget: "text"}
-      - {label: "Tình trạng pháp lý", name: "tinhTrangPhapLy", widget: "text"}
-      - {label: "Diện tích", name: "dienTich", widget: "text"}
-      - {label: "Đường trước nhà", name: "duongTruocNha", widget: "text"}
-      - {label: "Hướng", name: "huong", widget: "text"}
-      - {label: "Số tầng", name: "soTang", widget: "text"}
-      - {label: "Phòng ngủ", name: "phongNgu", widget: "text"}
-      - {label: "Phòng tắm", name: "phongTam", widget: "text"}
-      - {label: "Thuộc dự án", name: "thuocDuAn", widget: "text"}
-      - {label: "Tiện ích", name: "tienIch", widget: "list", field: {label: "Text", widget: "text"} }
-      - {label: "Môi trường xung quanh", name: "moiTruongXungQuanh", widget: "list", field: {label: "Text", widget: "text"} }
+      - {label: "Trạng thái", name: "status", widget: "text", default: "", required: false}
+      - {label: "Tình trạng pháp lý", name: "tinhTrangPhapLy", widget: "text", default: "", required: false}
+      - {label: "Diện tích", name: "dienTich", widget: "text", default: "", required: false}
+      - {label: "Đường trước nhà", name: "duongTruocNha", widget: "text", default: "", required: false}
+      - {label: "Hướng", name: "huong", widget: "text", default: "", required: false}
+      - {label: "Số tầng", name: "soTang", widget: "text", default: "", required: false}
+      - {label: "Phòng ngủ", name: "phongNgu", widget: "text", default: "", required: false}
+      - {label: "Phòng tắm", name: "phongTam", widget: "text", default: "", required: false}
+      - {label: "Thuộc dự án", name: "thuocDuAn", widget: "text", default: "", required: false}
+      - {label: "Tiện ích", name: "tienIch", widget: "list", field: {label: "Text", widget: "text"}, default: "[]", required: false}
+      - {label: "Môi trường xung quanh", name: "moiTruongXungQuanh", widget: "list", field: {label: "Text", widget: "text"},  default: "[]", required: false}
       - {label: "Ảnh chính", name: "image", widget: "image", required: true}
       - {label: "Ảnh phụ", name: "images", widget: "list", required: true, field: {label: "Image", widget: "image"}}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -59,9 +59,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Chữ Logo 2", name: "logo2", widget: string, required: true}
           - {label: "Chữ Logo 3", name: "logo3", widget: string, required: true}
           - {label: "Số điện thoại", name: "phone", widget: string, required: true}
-          - {label: "Số viber", name: "viber", widget: string}
-          - {label: "Số zalo", name: "zalo", widget: string}
+          - {label: "Số viber", name: "viber", widget: string, default: "", required: false}
+          - {label: "Số zalo", name: "zalo", widget: string, default: "", required: false}
           - {label: "Địa chỉ công ty", name: "address", widget: string, required: true}
           - {label: "Địa chỉ email", name: "email", widget: string, required: true}
           - {label: "Địa chỉ web", name: "website", widget: string, required: true}
-          - {label: "Link google map", name: "mapUrl", widget: string}
+          - {label: "Link google map", name: "mapUrl", widget: string, default: "", required: false}

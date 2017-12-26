@@ -10,12 +10,12 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/dat-nen" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Thông tin phụ", name: "description", widget: "string"}
-      - {label: "Giá", name: "price", widget: "string"}
-      - {label: "Ngày đăng", name: "date", widget: "datetime"}
+      - {label: "Giá", name: "price", widget: "string", required: true}
+      - {label: "Ngày đăng", name: "date", widget: "datetime", required: true}
       - {label: "Link Google Map", name: "mapUrl", widget: "text"}
-      - {label: "Địa chỉ", name: "address", widget: "text"}
+      - {label: "Địa chỉ", name: "address", widget: "text", required: true}
       - {label: "Trạng thái", name: "status", widget: "text"}
       - {label: "Tình trạng pháp lý", name: "tinhTrangPhapLy", widget: "text"}
       - {label: "Diện tích", name: "dienTich", widget: "text"}
@@ -30,6 +30,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Ảnh chính", name: "image", widget: "image", required: true}
       - {label: "Ảnh phụ", name: "images", widget: "list", required: true, field: {label: "Image", widget: "image"}}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "tin-tuc" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Tin tức" # Used in the UI, ie.: "New Post"
+    folder: "site/content/tin-tuc" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Ngày đăng", name: "date", widget: "datetime"}
+      - {label: "Ảnh chính", name: "image", widget: "image", required: true}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Trang"
     files:
@@ -37,22 +46,22 @@ collections: # A list of collections the CMS should be able to edit
         label: "Trang chủ"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Title, name: title, widget: string, required: true}
           - {label: "Album ảnh", name: "carouselImages", widget: "list", required: true, field: {label: "Image", widget: "image"}}
-          - {label: "Chữ lớn trong hình", name: "carouselTitle", widget: string}
-          - {label: "Chữ nhỏ trong hình", name: "carouselSubtitle", widget: string}
-          - {label: "Tên phân đoạn", name: "sectionTitle", widget: string}
+          - {label: "Chữ lớn trong hình", name: "carouselTitle", widget: string, required: true}
+          - {label: "Chữ nhỏ trong hình", name: "carouselSubtitle", widget: string, required: true}
+          - {label: "Tên phân đoạn", name: "sectionTitle", widget: string, required: true}
       - file: "site/data/info.yaml"
         label: "Thông tin chung"
         name: "info"
         fields:
-          - {label: "Chữ Logo 1", name: "logo1", widget: string}
-          - {label: "Chữ Logo 2", name: "logo2", widget: string}
-          - {label: "Chữ Logo 3", name: "logo3", widget: string}
-          - {label: "Số điện thoại", name: "phone", widget: string}
+          - {label: "Chữ Logo 1", name: "logo1", widget: string, required: true}
+          - {label: "Chữ Logo 2", name: "logo2", widget: string, required: true}
+          - {label: "Chữ Logo 3", name: "logo3", widget: string, required: true}
+          - {label: "Số điện thoại", name: "phone", widget: string, required: true}
           - {label: "Số viber", name: "viber", widget: string}
           - {label: "Số zalo", name: "zalo", widget: string}
-          - {label: "Địa chỉ công ty", name: "address", widget: string}
-          - {label: "Địa chỉ email", name: "email", widget: string}
-          - {label: "Địa chỉ web", name: "website", widget: string}
+          - {label: "Địa chỉ công ty", name: "address", widget: string, required: true}
+          - {label: "Địa chỉ email", name: "email", widget: string, required: true}
+          - {label: "Địa chỉ web", name: "website", widget: string, required: true}
           - {label: "Link google map", name: "mapUrl", widget: string}

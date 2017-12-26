@@ -1,23 +1,38 @@
 ---
-title: Bán Nhà Mới Xây , 8 Sẹc Đường 30m, Các ...
+title: 'Bán Nhà Mới Xây , 8 Sẹc Đường 30m, Các ...'
 description: thông tin phụ
-date: 2017-02-04T15:04:10.000Z
 price: 250 Triệu VNĐ
-mapUrl: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7837.819690775687!2d106.534!3d10.8182111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ5JzA1LjgiTiAxMDbCsDMyJzEyLjEiRQ!5e0!3m2!1sen!2s!4v1514212723645
-image: /img/products-grid3.jpg
-images: [slice-1.jpg, slice-2.jpg, products-grid2.jpg, products-grid1.jpg, viber.png]
+date: 2017-02-04T15:04:10.000Z
+mapUrl: >-
+  https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7837.819690775687!2d106.534!3d10.8182111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ5JzA1LjgiTiAxMDbCsDMyJzEyLjEiRQ!5e0!3m2!1sen!2s!4v1514212723645
 address: Quận Bình Tân TP.Hồ Chí Minh
 status: mới
 tinhTrangPhapLy: Sổ hồng
 dienTich: 80 m²
-duongTruocNha: 12,0 m
-huong: ""
-soTang: ""
-phongNgu: ""
-phongTam: ""
-thuocDuAn: ""
-tienIch: [Điều hòa, Internet cáp quang, Đầy đủ nội thất, Wifi]
-moiTruongXungQuanh: [Trường học, Siêu thị, Bệnh viện, Giao thông công cộng, Gần chùa, Gần nhà thờ ]
+duongTruocNha: '12,0 m'
+huong: ''
+soTang: ''
+phongNgu: ''
+phongTam: ''
+thuocDuAn: ''
+tienIch:
+  - Điều hòa
+  - Internet cáp quang
+  - Đầy đủ nội thất
+  - Wifi
+moiTruongXungQuanh:
+  - Trường học
+  - Siêu thị
+  - Bệnh viện
+  - Giao thông công cộng
+  - Gần chùa
+  - Gần nhà thờ
+image: /img/products-grid3.jpg
+images:
+  - slice-1.jpg
+  - slice-2.jpg
+  - products-grid2.jpg
+  - products-grid1.jpg
 ---
 {{< youtube M_eaS7X-mIw >}}  
 ####  &nbsp;

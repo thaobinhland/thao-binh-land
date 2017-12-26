@@ -45,6 +45,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/_index.md"
         label: "Trang chủ"
         name: "home"
+        delete: false
         fields:
           - {label: Title, name: title, widget: string, required: true}
           - {label: "Album ảnh", name: "carouselImages", widget: "list", required: true, field: {label: "Image", widget: "image"}}
@@ -54,6 +55,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/data/info.yaml"
         label: "Thông tin chung"
         name: "info"
+        delete: false
         fields:
           - {label: "Chữ Logo 1", name: "logo1", widget: string, required: true}
           - {label: "Chữ Logo 2", name: "logo2", widget: string, required: true}

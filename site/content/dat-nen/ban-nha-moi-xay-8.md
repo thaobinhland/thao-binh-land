@@ -1,23 +1,43 @@
 ---
 title: Bán Nhà Mới Xây , 8 Sẹc Đường 30m, Các ...
-subtitle: Quận Bình Tân TP.Hồ Chí Minh
-date: 2017-01-20T15:04:10.000Z
-image: /img/products-grid2.jpg
+description: thông tin phụ
+date: 2017-02-04T15:04:10.000Z
+price: 250 Triệu VNĐ
+mapUrl: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7837.819690775687!2d106.534!3d10.8182111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ5JzA1LjgiTiAxMDbCsDMyJzEyLjEiRQ!5e0!3m2!1sen!2s!4v1514212723645
+image: /img/products-grid3.jpg
+images: [slice-1.jpg, slice-2.jpg, products-grid2.jpg, products-grid1.jpg, viber.png]
+address: Quận Bình Tân TP.Hồ Chí Minh
+status: mới
+tinhTrangPhapLy: Sổ hồng
+dienTich: 80 m²
+duongTruocNha: 12,0 m
+huong: ""
+soTang: ""
+phongNgu: ""
+phongTam: ""
+thuocDuAn: ""
+tienIch: [Điều hòa, Internet cáp quang, Đầy đủ nội thất, Wifi]
+moiTruongXungQuanh: [Trường học, Siêu thị, Bệnh viện, Giao thông công cộng, Gần chùa, Gần nhà thờ ]
 ---
+{{< youtube M_eaS7X-mIw >}}  
+####  &nbsp;
+#### Mô tả chi tiết
 
-This [week](/wdwdw) we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts\*.
+  Đất thổ cư  
++ Diện tích đa dạng 4mx15m, 4mx20m, 5mx15m, 5mx20m, 6mx15m.... 
++ Sổ hồng riêng từng nền, mua công chứng sang tên ngay. 
++ Bao sang tên công chứng, hỗ trợ thiết kế bản vẽ, hỗ trợ xây dựng ngay (nếu khách hàng có nhu cầu xây liền). 
++ Hạ tầng hoàn thiện, đã có điện nước, phòng cháy chung cư, cống lề, lộ giới trải nhựa, cắm cột mốc, bàn giao nền và đặc biệt đang xây nhà . 
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is *"one of the best-designed products of modern times"*, and so is included in the collection of the Museum of Modern Art in New York City.
+Đặc Biệt 
+Nằm gần các kcn lớn tân đức ,tân đô,tân tạo phù hợp cho kinh doanh buôn bán cho thuê phòng trọ . 
+Nằm gần các bệnh viện lớn như chợ rẫy 2, nhi đồng 3,… 
 
-## The little secrets of Chemex brewing
+- Hồ sinh thái 10ha, công viên cây xanh, Câu cá giải trí, Bến du thuyền. 
+- Bệnh viện, trường học. 
+- Biệt thự, nhà phố và chung cư. 
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+Tôi cam kết bán giá tốt nhất thị trường, giá gốc chủ đầu tư. Chỉ có 250tr/nền. 
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
-
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
-
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+- Hotline: 0901.379.319(vũ) hoặc 0942.800.060 phòng kinh doanh . 
+Nơi đây mới là nơi để khách hàng tìm đến mua giá rẻ và pháp lý an toàn nhất. Khách hàng đừng vội bỏ tiền xuống đặt cọc nơi đâu khi chưa gọi cho tôi để tham khảo. 

@@ -2,21 +2,23 @@
     <div class="cf pr2-ns">
         <div class="fl w-100 w-70-ns pa0">
             <div class="siema" style="max-height: 400px">
-                {{ range .Params.intro.images }}
+                {{ range .Params.carouselImages }}
                 <img class="w-100" style="pointer-events: none" src="/img/{{ . }}">
                 {{ end }}
             </div>
             <div class="mw7 center ph3" style="position: absolute; top: 180px; left: 1%">
                 <div class="db mb3">
                     <div class="mw7 relative bg-fix-primary mb3">
+                        {{ if .Params.carouselTitle }}
                         <h1 class="f1 f1-l b di lh-title mb3 white mw6 bg-primary">
-                            {{.Params.intro.title}}
+                            {{.Params.carouselTitle}}
                         </h1>
+                        {{ end }}
                     </div>
                     <div class="mw7 relative bg-fix-primary">
-                        {{ if .Params.intro.subtitle }}
+                        {{ if .Params.carouselSubtitle }}
                         <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-                            {{.Params.intro.subtitle}}
+                            {{.Params.carouselSubtitle}}
                         </p>
                         {{ end }}
                     </div>

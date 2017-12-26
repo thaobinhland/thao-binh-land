@@ -33,64 +33,64 @@
                     <tbody class="lh-copy">
                     {{ if ((isset .Params "tinhtrangphaply")) | and (not (eq .Params.tinhtrangphaply "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Tình trạng pháp lý</td>
-                        <td class="pa3">{{ .Params.tinhTrangPhapLy }}</td>
+                        <td class="pa1 b">Tình trạng pháp lý</td>
+                        <td class="pa1">{{ .Params.tinhTrangPhapLy }}</td>
                     </tr>
                     {{ end }}
 
                     {{ if ((isset .Params "dientich")) | and (not (eq .Params.dientich "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Diện tích</td>
-                        <td class="pa3">{{ .Params.dienTich }}</td>
+                        <td class="pa1 b">Diện tích</td>
+                        <td class="pa1">{{ .Params.dienTich }}</td>
                     </tr>
                     {{ end }}
 
                     {{ if ((isset .Params "duongtruocnha")) | and (not (eq .Params.duongTruocNha "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Đường trước nhà</td>
-                        <td class="pa3">{{ .Params.duongTruocNha }}</td>
+                        <td class="pa1 b">Đường trước nhà</td>
+                        <td class="pa1">{{ .Params.duongTruocNha }}</td>
                     </tr>
                     {{ end }}
 
                     {{ if ((isset .Params "huong")) | and (not (eq .Params.huong "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Hướng</td>
-                        <td class="pa3">{{ .Params.huong }}</td>
+                        <td class="pa1 b">Hướng</td>
+                        <td class="pa1">{{ .Params.huong }}</td>
                     </tr>
                     {{ end }}
 
                     {{ if ((isset .Params "sotang")) | and (not (eq .Params.soTang "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Số tầng</td>
-                        <td class="pa3">{{ .Params.soTang }}</td>
+                        <td class="pa1 b">Số tầng</td>
+                        <td class="pa1">{{ .Params.soTang }}</td>
                     </tr>
                     {{ end }}
 
                     {{ if ((isset .Params "phongngu")) | and (not (eq .Params.phongNgu "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Phòng ngủ</td>
-                        <td class="pa3">{{ .Params.phongNgu }}</td>
+                        <td class="pa1 b">Phòng ngủ</td>
+                        <td class="pa1">{{ .Params.phongNgu }}</td>
                     </tr>
                     {{ end }}
 
                     {{ if ((isset .Params "phongtam")) | and (not (eq .Params.phongTam "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Phòng tắm</td>
-                        <td class="pa3">{{ .Params.phongTam }}</td>
+                        <td class="pa1 b">Phòng tắm</td>
+                        <td class="pa1">{{ .Params.phongTam }}</td>
                     </tr>
                     {{ end }}
 
                     {{ if ((isset .Params "thuocduan")) | and (not (eq .Params.thuocDuAn "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Thuộc dự án</td>
-                        <td class="pa3">{{ .Params.thuocDuAn }}</td>
+                        <td class="pa1 b">Thuộc dự án</td>
+                        <td class="pa1">{{ .Params.thuocDuAn }}</td>
                     </tr>
                     {{ end }}
 
                     {{ if isset .Params "tienich" }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Tiện ích</td>
-                        <td class="pa3">
+                        <td class="pa1 b">Tiện ích</td>
+                        <td class="pa1">
                             {{ range .Params.tienIch }}
                                 {{.}}<br>
                             {{ end }}
@@ -100,8 +100,8 @@
 
                     {{ if isset .Params "moitruongxungquanh" }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Môi trường xung quanh</td>
-                        <td class="pa3">
+                        <td class="pa1 b">Môi trường xung quanh</td>
+                        <td class="pa1">
                             {{ range .Params.moiTruongXungQuanh }}
                             {{.}}<br>
                             {{ end }}
@@ -111,8 +111,8 @@
 
                     {{ if ((isset .Params "status")) | and (not (eq .Params.status "")) }}
                     <tr class="stripe-dark">
-                        <td class="pa3 b">Trạng thái</td>
-                        <td class="pa3">{{ .Params.status }}</td>
+                        <td class="pa1 b">Trạng thái</td>
+                        <td class="pa1">{{ .Params.status }}</td>
                     </tr>
                     {{ end }}
                     </tbody>

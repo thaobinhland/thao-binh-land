@@ -1,8 +1,6 @@
 ---
 title: Nhà đầu tư lại “săn” bất động sản Bình Dương
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  Thị trường bất động sản Bình Dương trở nên nhộn nhịp khi nhiều doanh nghiệp tung ra dự án mới đáp ứng nhu cầu đầu tư đang tăng trở lại dịp cuối năm.
 image: /img/blog-index.jpg
 ---
 

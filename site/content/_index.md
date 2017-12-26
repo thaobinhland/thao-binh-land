@@ -1,31 +1,8 @@
 ---
-title: Mua bán nhà đất
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
-intro:
-  images: [ slice-1.jpg, slice-2.jpg ]
-  title: Thảo Bình Land
-  subtitle: Nhà đất trong tầm tay
-products:
-  - image: img/illustrations-coffee.svg
-    text: >-
-      We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
-  - image: /img/illustrations-coffee-gear.svg
-    text: >-
-      We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
-values:
-  heading: Our values
-  text: >-
-    Coffee is an amazing part of human culture but it has a dark side too – one
-    of colonialism and mindless abuse of natural resources and human lives. We
-    want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
+title: Văn phòng BĐS ThảoBình
+carouselImages: [ slice-1.jpg, slice-2.jpg ]
+carouselTitle: Thảo Bình Land
+carouselSubtitle: Nhà đất trong tầm tay
+sectionTitle: Bất động sản
 ---
 

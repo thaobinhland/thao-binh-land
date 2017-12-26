@@ -2,25 +2,33 @@
     <!-- Logo -->
     <a href="/" class="pa3 db mr4 h-100 flex-none no-underline">
 		<span>
-			<span class="fw7" style="">Thao</span>
-			<span class="fw7" style="margin-left: -4px">Binh</span>
-			<span class="fw1" style="">Land</span>
+			<span class="fw7" style="">{{.Site.Data.info.logo1}}</span>
+			<span class="fw7" style="margin-left: -4px">{{.Site.Data.info.logo2}}</span>
+			<span class="fw1" style="">{{.Site.Data.info.logo3}}</span>
 		</span>
     </a>
 
     <!-- Primary Nav -->
     <ul class="flex b grey-3">
         <li class="v-mid mt3 dn di-ns di-m di-l">
+            {{ if isset .Site.Data.info "phone" }}
             <span class="mr1" style="">
                 Hotline:
-                <a class="link near-black hover-silver " style="color: red" href="tel:123456789" title="Call">123456789</a>
+                <a class="link near-black hover-silver " style="color: red" href="tel:{{.Site.Data.info.phone}}" title="Call">{{.Site.Data.info.phone}}</a>
             </span>
-            <a class="link near-black hover-silver dib v-mid mr1" href="viber://add?number=123456789" title="Viber">
+            {{ end }}
+
+            {{ if isset .Site.Data.info "viber" }}
+            <a class="link near-black hover-silver dib v-mid mr1" href="viber://add?number={{.Site.Data.info.viber}}" title="Viber">
                 <img src="/img/viber.png" width="25" height="25" alt="">
             </a>
-            <a class="link near-black hover-silver dib v-mid mr1" href="https://zalo.me/123456789" title="Zalo">
+            {{ end }}
+
+            {{ if isset .Site.Data.info "zalo" }}
+            <a class="link near-black hover-silver dib v-mid mr1" href="https://zalo.me/{{.Site.Data.info.zalo}}" title="Zalo">
                 <img src="/img/zalo.png" width="25" height="25" alt="">
             </a>
+            {{ end }}
         </li>
         <li><a href="/dat-nen" class="pa3 fw4 no-underline db">Nhà Đất</a></li>
         <!--<li><a href="/tin-tuc" class="pa3 fw4 no-underline db">Tin tức</a></li>-->
@@ -28,15 +36,23 @@
 </nav>
 <nav class="dn-ns dn-m dn-l">
     <footer class="pt1 ph5-ns v-mid tc overflow-x-hidden">
+        {{ if isset .Site.Data.info "phone" }}
         <span class="" style="position: relative; top: -5px">
             Hotline:
-            <a class="link near-black hover-silver dib h0 w3 mr4" style="color: red" href="tel:123456789" title="Call">123456789</a>
+            <a class="link near-black hover-silver dib h0 w3 mr4" style="color: red" href="tel:{{.Site.Data.info.phone}}" title="Call">{{.Site.Data.info.phone}}</a>
         </span>
-        <a class="link near-black hover-silver dib h0 mr3" href="viber://add?number=123456789" title="Viber">
+        {{ end }}
+
+        {{ if isset .Site.Data.info "viber" }}
+        <a class="link near-black hover-silver dib h0 mr3" href="viber://add?number={{.Site.Data.info.viber}}" title="Viber">
             <img src="/img/viber.png" width="25" height="25" alt="">
         </a>
-        <a class="link near-black hover-silver dib h0 mr3" href="https://zalo.me/123456789" title="Zalo">
+        {{ end }}
+
+        {{ if isset .Site.Data.info "zalo" }}
+        <a class="link near-black hover-silver dib h0 mr3" href="https://zalo.me/{{.Site.Data.info.zalo}}" title="Zalo">
             <img src="/img/zalo.png" width="25" height="25"  alt="">
         </a>
+        {{ end }}
     </footer>
 </nav>

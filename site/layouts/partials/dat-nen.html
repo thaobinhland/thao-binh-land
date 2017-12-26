@@ -1,6 +1,6 @@
 <div class="bg-off-white pv1">
 	<div class="ph3 center">
-		<h2 class="f4 tc lh-title mb2">Bất động sản</h2>
+		<h2 class="f4 tc lh-title mb2">{{ .Params.sectionTitle }}</h2>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
             {{ range first 5 (where .Data.Pages "Type" "dat-nen").ByDate.Reverse }}

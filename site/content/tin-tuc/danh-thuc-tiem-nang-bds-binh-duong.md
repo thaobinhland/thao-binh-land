@@ -1,8 +1,6 @@
 ---
 title: “Đánh thức” tiềm năng bất động sản Bình Dương
 date: 2017-01-10T15:04:10.000Z
-description: >-
-  Nhờ chiến lược phát triển đúng đắn, những năm qua tỉnh Bình Dương đã đạt được nhiều thành tựu về thu hút FDI, cải thiện cơ sở hạ tầng… Cùng với đó, thị trường bất động sản cũng được đánh giá là lĩnh vực đầu tư nhiều tiềm năng.
 image: /img/blog-index.jpg
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: “Đánh thức” tiềm năng bất động sản Bình Dương
+title: BBBBBBBBBBBBBBB
 date: 2017-01-10T15:04:10.000Z
 image: /img/blog-index.jpg
 ---

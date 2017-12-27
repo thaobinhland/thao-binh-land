@@ -3,7 +3,7 @@
         <div class="fl w-100 w-70-ns pa0">
             <div class="siema" style="max-height: 400px">
                 {{ range .Params.carouselImages }}
-                <img class="w-100" style="pointer-events: none" src="/img/{{ . }}">
+                <img class="w-100" style="pointer-events: none" src="{{ . }}">
                 {{ end }}
             </div>
             <div class="mw7 center ph3" style="position: absolute; top: 180px; left: 1%">

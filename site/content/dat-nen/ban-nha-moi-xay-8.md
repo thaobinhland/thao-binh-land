@@ -3,8 +3,7 @@ title: dat 2 mat tien duong 118 x duong 51
 description: giap duong TL 2
 price: '3740 Triệu '
 date: 2017-12-30T15:04:10.000Z
-mapUrl: >-
-  https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7837.819690775687!2d106.534!3d10.8182111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ5JzA1LjgiTiAxMDbCsDMyJzEyLjEiRQ!5e0!3m2!1sen!2s!4v1514212723645
+mapUrl: ''
 address: 'KHU DAN CU PHU CHANH C,D . PHUONG PHU TAN , THU DAU MOT , BINH DUONG '
 status: 'VIP '
 tinhTrangPhapLy: 'DAT 100% THO CU , SO HONG , CHINH CHU DUNG BAN '

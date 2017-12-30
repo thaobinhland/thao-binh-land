@@ -1,6 +1,6 @@
 ---
-title: Bình Dương sắp có khu công nghiệp VSIP III quy mô 1.000 ha
-date: 01/10/2017 10:04 PM
+title: Bình Dương sắp có khu công nghiệp VSIP III quy mô 1000 ha
+date: '01/10/2017 10:04 PM'
 image: /img/images (15).jpg
 ---
 CafeLand - Thủ tướng Chính phủ đồng ý chủ trương đầu tư dự án đầu tư xây dựng và kinh doanh cơ sở hạ tầng khu công nghiệp Việt Nam – Singapore III (VSIP III)

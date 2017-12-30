@@ -4,7 +4,7 @@
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
             {{ range first 5 (where .Data.Pages "Type" "dat-nen").ByDate.Reverse }}
-				<div class="ph1-ns w-100 w-50-ns w-33-m w-20-l flex">
+				<div class="ph2-ns w-100 w-50-ns w-33-m w-20-l flex">
 					{{ .Render "li" }}
 				</div>
 			{{ end }}

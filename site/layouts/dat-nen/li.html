@@ -6,9 +6,9 @@
         <img style="background-image:url({{ .Params.image }});" class="db bg-center cover aspect-ratio--object br0" />
     </div>
     <div class="ph0 ph0-ns link db">
-        <div class="f6 pa1 white" style="font-size: 16px; background-color: #414142">{{ .Title | truncate 52 }}</div>
+        <div class="f6 pa1 white" style="font-size: 16px; background-color: #414142">{{ .Params.title | truncate 96 }}</div>
         {{ if isset .Params "address" }}
-        <div class="f6 pa1 mt0" style="font-size: 14px">{{ .Params.address | truncate 36 }}</div>
+        <div class="f6 pa1 mt0" style="font-size: 14px">{{ .Params.address | truncate 96 }}</div>
         {{ end }}
     </div>
 </a>

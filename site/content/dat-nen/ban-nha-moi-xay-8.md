@@ -2,7 +2,7 @@
 title: dat 2 mat tien duong 118 x duong 51
 description: giap duong TL 2
 price: 'lien he '
-date: 2017-12-30T15:04:10.000Z
+date: 2017-12-29T22:04:10+07:00
 mapUrl: ''
 address: 'KHU DAN CU PHU CHANH C,D . PHUONG PHU TAN , THU DAU MOT , BINH DUONG '
 status: 'VIP '

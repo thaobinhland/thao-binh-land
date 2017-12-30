@@ -15,6 +15,10 @@
             <span class="mr1" style="">
                 Hotline:
                 <a class="link near-black hover-silver " style="color: red" href="tel:{{.Site.Data.info.phone}}" title="Call">{{.Site.Data.info.phone}}</a>
+                {{ if isset .Site.Data.info "phone2"}}
+                <span class="fw1" style="">|</span>
+                <a class="link near-black hover-silver " style="color: red" href="tel:{{.Site.Data.info.phone2}}" title="Call">{{.Site.Data.info.phone2}}</a>
+                {{ end }}
             </span>
             {{ end }}
 
@@ -40,6 +44,10 @@
         <span class="" style="position: relative; top: -5px">
             Hotline:
             <a class="link near-black hover-silver dib h0 w3 mr4" style="color: red" href="tel:{{.Site.Data.info.phone}}" title="Call">{{.Site.Data.info.phone}}</a>
+            {{ if isset .Site.Data.info "phone2"}}
+                <span class="fw1" style="">|</span>
+                <a class="link near-black hover-silver " style="color: red" href="tel:{{.Site.Data.info.phone2}}" title="Call">{{.Site.Data.info.phone2}}</a>
+            {{ end }}
         </span>
         {{ end }}
 

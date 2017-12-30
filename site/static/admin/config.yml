@@ -61,6 +61,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Chữ Logo 2", name: "logo2", widget: string, required: true}
           - {label: "Chữ Logo 3", name: "logo3", widget: string, required: true}
           - {label: "Số điện thoại", name: "phone", widget: string, required: true}
+          - {label: "Số điện thoại 2", name: "phone2", widget: string, required: true}
           - {label: "Số viber", name: "viber", widget: string, default: "", required: false}
           - {label: "Số zalo", name: "zalo", widget: string, default: "", required: false}
           - {label: "Địa chỉ công ty", name: "address", widget: string, required: true}

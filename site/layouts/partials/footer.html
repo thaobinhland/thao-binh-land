@@ -10,7 +10,13 @@
 						{{ end }}
 
 						{{ if isset .Site.Data.info "phone" }}
-						<li><span class="fw1">Sdt:</span> <a href="tel:{{.Site.Data.info.phone}}" style="color: red">{{.Site.Data.info.phone}}</a></li>
+						<li>
+							<span class="fw1">Sdt:</span> <a href="tel:{{.Site.Data.info.phone}}" style="color: red">{{.Site.Data.info.phone}}</a>
+							{{ if isset .Site.Data.info "phone2"}}
+							<span class="fw1" style="">|</span>
+							<a href="tel:{{.Site.Data.info.phone2}}" style="color: red">{{.Site.Data.info.phone2}}</a>
+						{{ end }}
+						</li>
 						{{ end }}
 
 						{{ if isset .Site.Data.info "email" }}

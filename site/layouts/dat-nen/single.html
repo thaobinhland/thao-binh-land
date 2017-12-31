@@ -18,7 +18,7 @@
     <div class="cms mw6">
         <div class="main-carousel">
             {{ range .Params.images }}
-            <img class="carousel-cell w-100" style="pointer-events: none" src="/img/{{ . }}">
+            <img class="carousel-cell w-100" style="pointer-events: none" src="{{ . }}">
             {{ end }}
         </div>
         <br>

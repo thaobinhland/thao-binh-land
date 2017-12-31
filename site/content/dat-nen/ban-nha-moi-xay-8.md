@@ -18,10 +18,8 @@ tienIch: []
 moiTruongXungQuanh: []
 image: /img/45646.jpg
 images:
-  - slice-1.jpg
-  - slice-2.jpg
-  - products-grid2.jpg
-  - products-grid1.jpg
+  - /img/45646.jpg
+  - /img/45646.jpg
 ---
 
 

@@ -19,7 +19,6 @@ moiTruongXungQuanh: []
 image: /img/612ef8e1-e041-4384-b998-59737dc22583.jpeg
 images:
   - /img/45646.jpg
-  - /img/45646.jpg
 ---
 #### Mô tả chi tiết
 

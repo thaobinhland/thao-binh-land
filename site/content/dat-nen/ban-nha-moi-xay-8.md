@@ -22,6 +22,7 @@ image: /img/612ef8e1-e041-4384-b998-59737dc22583.jpeg
 images:
   - /img/45646.jpg
   - /img/3.bmp
+  - /img/20160804094717-92d8.jpg
 ---
 #### Mô tả chi tiết
 

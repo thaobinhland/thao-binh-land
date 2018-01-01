@@ -3,11 +3,11 @@ title: dat 2 mat tien duong 118 x duong 51
 description: >-
   giap duong TL 2( NGUYEN VAN LINH :noi tu TAN PHUOC KHANH VAO TP moi BINH DUONG
   _)
-price: 'DANG BAN  '
+price: XIN LIEN HE !!!
 date: 2017-12-29T15:04:10.000Z
 mapUrl: ''
 address: 'KHU DAN CU PHU CHANH C,D . PHUONG PHU TAN , THU DAU MOT , BINH DUONG '
-status: 'VIP '
+status: 'DANG RAO BAN '
 tinhTrangPhapLy: 'DAT 100% THO CU , SO HONG , CHINH CHU DUNG BAN '
 dienTich: 187 m²
 duongTruocNha: '12,0 m'

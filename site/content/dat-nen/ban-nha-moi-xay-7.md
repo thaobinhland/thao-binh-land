@@ -1,10 +1,9 @@
 ---
 title: 'Bán Nhà Mới Xây , 7 Sẹc Đường 30m, Các ...'
 description: thông tin phụ
-price: 250 Triệu VNĐ
+price: Call
 date: 2017-02-04T15:04:10.000Z
-mapUrl: >-
-  https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7837.819690775687!2d106.534!3d10.8182111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ5JzA1LjgiTiAxMDbCsDMyJzEyLjEiRQ!5e0!3m2!1sen!2s!4v1514212723645
+mapUrl: ''
 address: Quận Bình Tân TP.Hồ Chí Minh
 status: mới
 tinhTrangPhapLy: Sổ hồng

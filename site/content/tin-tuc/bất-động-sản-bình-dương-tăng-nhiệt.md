@@ -1,7 +1,7 @@
 ---
 title: Bất động sản Bình Dương tăng nhiệt
-date: 2017-12-07T14:03:05+07:00
-image: /img/5b3097755danh_2_wdyy.jpg
+date: 2017-12-07T07:03:05.000Z
+image: /img/1.bmp
 ---
 Bất động sản Bình Dương tăng nhiệt
 

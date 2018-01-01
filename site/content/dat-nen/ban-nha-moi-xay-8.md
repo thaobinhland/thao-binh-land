@@ -18,7 +18,7 @@ phongTam: ''
 thuocDuAn: ''
 tienIch: []
 moiTruongXungQuanh: []
-image: /img/612ef8e1-e041-4384-b998-59737dc22583.jpeg
+image: /img/612ef8e1-e041-4384-b998-59737dc22583.jpg
 images:
   - /img/45646.jpg
   - /img/3.bmp

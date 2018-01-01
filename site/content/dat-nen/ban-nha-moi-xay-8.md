@@ -1,8 +1,6 @@
 ---
-title: dat 2 mat tien duong 118 x duong 51
-description: >-
-  giap duong TL 2( NGUYEN VAN LINH :noi tu TAN PHUOC KHANH VAO TP moi BINH DUONG
-  _)
+title: 'ĐẤT NỀN 2 MẶT TIỀN  '
+description: ĐƯỜNG 118 X ĐƯỜNG 51
 price: Call
 date: 2017-12-29T15:04:10.000Z
 mapUrl: ''

@@ -1,54 +1,47 @@
 ---
-title: 'Bán Nhà Mới Xây , 7 Sẹc Đường 30m, Các ...'
-description: thông tin phụ
+title: 'BÁN LÔ ĐẤT ĐẸP '
+description: 5MX30M
 price: Call
-date: 2017-02-04T15:04:10.000Z
+date: 2018-01-01T22:04:10+07:00
 mapUrl: ''
-address: Quận Bình Tân TP.Hồ Chí Minh
-status: mới
-tinhTrangPhapLy: Sổ hồng
-dienTich: 80 m²
-duongTruocNha: '12,0 m'
-huong: ''
+address: >-
+  Đường số   , tại khu dân cư PHÚ CHÁNH, Phường TÂN PHÚ , THỦ DẦU MỘT , TP MỚI
+  BÌNH DƯƠNG.
+status: 'Đang rao bán '
+tinhTrangPhapLy: 'SỔ HỒNG CHÍNH CHỦ '
+dienTich: 150 m²
+duongTruocNha: '8,0 m'
+huong: DB
 soTang: ''
 phongNgu: ''
 phongTam: ''
 thuocDuAn: ''
 tienIch:
-  - Điều hòa
-  - Internet cáp quang
   - Đầy đủ nội thất
-  - Wifi
-moiTruongXungQuanh:
-  - Trường học
-  - Siêu thị
-  - Bệnh viện
-  - Giao thông công cộng
-  - Gần chùa
-  - Gần nhà thờ
-image: /img/products-grid3.jpg
+moiTruongXungQuanh: []
+image: /img/c48b613a-d106-4a1d-b100-54d851afb756 (1).jpeg
 images:
   - /img/fiber optical wedding dress.jpg
 ---
-{{< youtube M_eaS7X-mIw >}}  
-####  &nbsp;
+
+
 #### Mô tả chi tiết
 
   Đất thổ cư  
-+ Diện tích đa dạng 4mx15m, 4mx20m, 5mx15m, 5mx20m, 6mx15m.... 
-+ Sổ hồng riêng từng nền, mua công chứng sang tên ngay. 
-+ Bao sang tên công chứng, hỗ trợ thiết kế bản vẽ, hỗ trợ xây dựng ngay (nếu khách hàng có nhu cầu xây liền). 
-+ Hạ tầng hoàn thiện, đã có điện nước, phòng cháy chung cư, cống lề, lộ giới trải nhựa, cắm cột mốc, bàn giao nền và đặc biệt đang xây nhà . 
+
+* Diện tích 
+* Sổ hồng riêng , mua công chứng sang tên ngay. 
+* Bao sang tên công chứng, hỗ trợ thiết kế bản vẽ, hỗ trợ xây dựng ngay (nếu khách hàng có nhu cầu xây liền). 
+* Hạ tầng hoàn thiện, đã có điện nước, cống lề, lộ giới trải nhựa, cắm cột mốc, bàn giao nền và đặc biệt đang xây nhà . 
 
 Đặc Biệt 
-Nằm gần các kcn lớn tân đức ,tân đô,tân tạo phù hợp cho kinh doanh buôn bán cho thuê phòng trọ . 
-Nằm gần các bệnh viện lớn như chợ rẫy 2, nhi đồng 3,… 
+Nằm gần các kcn lớn KIM HUY  ,SONG THAN 3 ,VIÊTSING 2 phù hợp cho kinh doanh buôn bán cho thuê phòng trọ . 
 
-- Hồ sinh thái 10ha, công viên cây xanh, Câu cá giải trí, Bến du thuyền. 
-- Bệnh viện, trường học. 
-- Biệt thự, nhà phố và chung cư. 
 
-Tôi cam kết bán giá tốt nhất thị trường, giá gốc chủ đầu tư. Chỉ có 250tr/nền. 
+* Bệnh viện, trường học. 
+* Biệt thự, nhà phố và chung cư. 
 
-- Hotline: 0901.379.319(vũ) hoặc 0942.800.060 phòng kinh doanh . 
-Nơi đây mới là nơi để khách hàng tìm đến mua giá rẻ và pháp lý an toàn nhất. Khách hàng đừng vội bỏ tiền xuống đặt cọc nơi đâu khi chưa gọi cho tôi để tham khảo. 
+Tôi cam kết bán giá tốt nhất thị trường, giá gốc chủ đầu tư.
+
+* Hotline: 01222228298 hoặc 01666666732 ( A. THUYET) . 
+  Nơi đây mới là nơi để khách hàng tìm đến mua giá rẻ và pháp lý an toàn nhất. Khách hàng đừng vội bỏ tiền xuống đặt cọc nơi đâu khi chưa gọi cho tôi để tham khảo.

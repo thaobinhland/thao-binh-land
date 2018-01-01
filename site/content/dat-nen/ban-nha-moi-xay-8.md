@@ -1,6 +1,8 @@
 ---
 title: dat 2 mat tien duong 118 x duong 51
-description: giap duong TL 2
+description: >-
+  giap duong TL 2( NGUYEN VAN LINH :noi tu TAN PHUOC KHANH VAO TP moi BINH DUONG
+  _)
 price: 'lien he '
 date: 2017-12-29T15:04:10.000Z
 mapUrl: ''

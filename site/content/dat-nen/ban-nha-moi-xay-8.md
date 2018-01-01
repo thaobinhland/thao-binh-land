@@ -20,9 +20,9 @@ tienIch: []
 moiTruongXungQuanh: []
 image: /img/c48b613a-d106-4a1d-b100-54d851afb756 (1).jpeg
 images:
-  - /img/45646.jpg
-  - /img/3.bmp
   - /img/20160804094717-92d8.jpg
+  - /img/1e96225d-4320-46c2-8774-4531656629ba.png
+  - /img/612ef8e1-e041-4384-b998-59737dc22583.jpeg
 ---
 #### Mô tả chi tiết
 

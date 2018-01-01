@@ -16,13 +16,11 @@ phongTam: ''
 thuocDuAn: ''
 tienIch: []
 moiTruongXungQuanh: []
-image: /img/45646.jpg
+image: /img/612ef8e1-e041-4384-b998-59737dc22583.jpeg
 images:
   - /img/45646.jpg
   - /img/45646.jpg
 ---
-
-
 #### Mô tả chi tiết
 
   Đất thổ cư  
@@ -33,8 +31,8 @@ images:
 * Hạ tầng hoàn thiện, đã có điện nước,cống lề, lộ giới trải nhựa, cắm cột mốc, bàn giao nền và đặc biệt đang xây nhà . 
 
 Đặc Biệt 
-Nằm gần các kcn lớn KIM HUY  ,SONG THAN 3 phù hợp cho kinh doanh buôn bán ,cho thuê phòng trọ . 
-Nằm gần chợ  , trường học , công viên cây xanh
+Nằm gần các kcn lớn KIM HUY (50m ) ,SONG THAN 3 (800m) phù hợp cho kinh doanh buôn bán ,cho thuê phòng trọ . 
+Nằm gần chợ 1.2km , trường học , công viên cây xanh
 
 Tôi cam kết bán giá tốt nhất thị trường, giá gốc chủ đầu tư. 
 

@@ -1,7 +1,7 @@
 ---
 title: Hàng ngàn người 'sập bẫy' địa ốc Alibaba !!!
-date: 2017-12-13T19:20:05+07:00
-image: /img/1_160226.jpg
+date: 2017-12-13T12:20:05.000Z
+image: /img/8.bmp
 ---
 Chỉ riêng dự án Alibaba Tây Bắc Củ Chi (TP.HCM) đã có gần 500 khách hàng “sập bẫy” Công ty CP địa ốc Alibaba, với số tiền bước đầu công ty này khai nhận là hơn 16 tỉ đồng.
 

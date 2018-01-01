@@ -2,7 +2,7 @@
 title: 'ĐẤT NỀN MẶT CHỢ '
 description: '10m x 30m , nằm trên đường số 96'
 price: Call
-date: 2018-01-01T22:04:10+07:00
+date: 2018-01-02T22:04:10+07:00
 mapUrl: ''
 address: 'Khu dân cư  PHÚ CHÁNH , Phường PHÚ TÂN, THỦ DẦU MỘT , TP MỚI BÌNH DƯƠNG .'
 status: 'đang rao bán '

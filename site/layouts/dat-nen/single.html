@@ -15,13 +15,16 @@
     {{ end }}
     <div class="flex justify-between grey-3">
     </div>
+</div>
+<div class="mw7 center ph1 pv2">
+    <div class="main-carousel">
+        {{ range .Params.images }}
+        <img class="carousel-cell w-100" style="pointer-events: none; min-width: 100%; min-height: 200px;" data-flickity-lazyload="{{ . }}">
+        {{ end }}
+    </div>
+</div>
+<div class="mw6 center ph1 pv2">
     <div class="cms mw6">
-        <div class="main-carousel">
-            {{ range .Params.images }}
-            <img class="carousel-cell w-100" style="pointer-events: none" src="{{ . }}">
-            {{ end }}
-        </div>
-        <br>
         <div class="pa0">
             <div class="overflow-auto">
                 {{ if ((isset .Params "mapurl")) | and (not (eq .Params.mapUrl "")) }}

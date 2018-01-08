@@ -27,10 +27,11 @@ if (document.querySelector('.main-carousel')) {
     new Flickity('.main-carousel', {
         cellAlign:       'left',
         setGallerySize:  true,
-        imagesLoaded:    true,
+        lazyLoad:        true,
         contain:         true,
         pageDots:        true,
-        prevNextButtons: true
+        prevNextButtons: true,
+        adaptiveHeight:  true
     });
 }
 

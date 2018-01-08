@@ -2,7 +2,7 @@
 title: 'BÁN LÔ ĐẤT ĐẸP '
 description: 5MX30M
 price: Call
-date: 2018-01-02T15:04:10.000Z
+date: 2018-01-03T22:04:10+07:00
 mapUrl: ''
 address: >-
   Đường số  55 , tại khu dân cư PHÚ CHÁNH, Phường TÂN PHÚ , THỦ DẦU MỘT , TP MỚI

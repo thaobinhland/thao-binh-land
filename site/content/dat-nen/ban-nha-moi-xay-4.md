@@ -2,7 +2,7 @@
 title: ĐẤT 5X30
 description: ĐƯỜNG 71
 price: Call
-date: 2018-01-09T22:04:10+07:00
+date: 2018-01-08T22:04:10+07:00
 mapUrl: ''
 address: 'phú chánh d, phú tân , thủ dầu một'
 status: ''

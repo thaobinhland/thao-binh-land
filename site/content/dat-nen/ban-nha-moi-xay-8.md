@@ -1,12 +1,12 @@
 ---
-title: 'ĐẤT NỀN 2 MẶT TIỀN  '
+title: ĐẤT NỀN 2 MẶT TIỀN  20MX10
 description: ĐƯỜNG 118 X ĐƯỜNG 51
 price: Call
 date: 2017-12-29T15:04:10.000Z
 mapUrl: ''
-address: 'KHU DAN CU PHU CHANH C,D . PHUONG PHU TAN , THU DAU MOT , BINH DUONG '
-status: 'DANG RAO BAN '
-tinhTrangPhapLy: 'DAT 100% THO CU , SO HONG , CHINH CHU DUNG BAN '
+address: 'KHU DAN CU PHU CHANH C,D . PHUONG PHU TAN , THU DAU MOT , '
+status: ''
+tinhTrangPhapLy: ' SO HONG '
 dienTich: 187 m²
 duongTruocNha: '12,0 m'
 huong: DB

@@ -2,7 +2,7 @@
 title: DAT 20X10
 description: 2 Mặt tiền (dg118x91)
 price: call
-date: 2018-01-09T22:04:10+07:00
+date: 2018-01-08T22:04:10+07:00
 mapUrl: ''
 address: 'phú chánh d, phú tân, thủ dầu một '
 status: ''

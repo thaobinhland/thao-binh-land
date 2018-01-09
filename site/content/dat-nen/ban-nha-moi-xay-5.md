@@ -2,7 +2,7 @@
 title: dat 5x20
 description: ĐƯỜNG 55
 price: call
-date: 2018-01-09T22:04:10+07:00
+date: 2018-01-08T22:04:10+07:00
 mapUrl: ''
 address: 'PHÚ CHÁNH C,PHÚ TÂN , THU DẦU MỘT'
 status: ''

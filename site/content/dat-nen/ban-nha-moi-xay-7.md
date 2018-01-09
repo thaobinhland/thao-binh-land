@@ -2,7 +2,7 @@
 title: 'BÁN LÔ ĐẤT ĐẸP '
 description: 5MX30M
 price: Call
-date: 2018-01-03T22:04:10+07:00
+date: 2018-01-03T15:04:10.000Z
 mapUrl: ''
 address: >-
   Đường số  55 , tại khu dân cư PHÚ CHÁNH, Phường TÂN PHÚ , THỦ DẦU MỘT , TP MỚI
@@ -19,8 +19,7 @@ thuocDuAn: ''
 tienIch: []
 moiTruongXungQuanh: []
 image: /img/x2.jpg
-images:
-  - /img/fiber optical wedding dress.jpg
+images: []
 ---
 #### Mô tả chi tiết
 

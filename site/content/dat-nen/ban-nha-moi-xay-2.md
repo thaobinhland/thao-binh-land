@@ -2,7 +2,7 @@
 title: ĐẤT 7.5X20
 description: ĐƯỜNG 76
 price: CALL
-date: 2018-01-09T22:04:10+07:00
+date: 2018-01-08T22:04:10+07:00
 mapUrl: ''
 address: 'PHÚ CHÁNH C, PHÚ TÂN , THỦ DẦU MỘT'
 status: ''

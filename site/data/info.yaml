@@ -11,5 +11,5 @@ website: bandatdep.com
 mapUrl: >-
   <iframe
   src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3915.7810043574927!2d106.70575441073898!3d11.055039131835253!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1515550348152"
-  width="600" height="450" frameborder="0" style="border:0"
+  width="400" height="300" frameborder="0" style="border:0"
   allowfullscreen></iframe>

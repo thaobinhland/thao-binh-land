@@ -1,6 +1,6 @@
 ---
 title: 'Xử lý 705 nghìn tỷ nợ xấu, cơ chế mới giúp hơn 50 nghìn tỷ'
-date: 2018-01-11T01:23:56.921Z
+date: 2018-01-10T08:23:56+07:00
 image: /img/lvp-1515585675261.png
 ---
 
